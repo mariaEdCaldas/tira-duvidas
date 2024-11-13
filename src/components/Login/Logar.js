@@ -5,7 +5,7 @@ import ufmsLogo from '../ufms-logo.png'; // Logo da UFMS
 
 function Logar() {
   return (
-    <div>
+    <div className='body-login'>
       <div className="container">
         <div className="left-panel">
           <img src={tiraDuvidasLogo} alt="Tira Dúvidas Logo" className="logo" />
@@ -14,9 +14,9 @@ function Logar() {
         <div className="right-panel">
           <h2>Login</h2>
           <form>
-            <label>Email:</label>
+            <label className='label-login'>Email:</label>
             <input type="email" name="email" placeholder="email@email.com" />
-            <label>Senha:</label>
+            <label className='label-login'>Senha:</label>
             <input type="password" name="password" placeholder="••••••••" />
             <button type="submit">Entrar</button>
           </form>

@@ -1,5 +1,5 @@
 /* Definição geral da página */
-body {
+.body-login {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
@@ -10,14 +10,6 @@ body {
   align-items: center;
   height: 100vh;
   flex-direction: column;
-}
-
-/* Cabeçalho */
-header {
-  font-size: 24px;
-  margin-bottom: 20px;
-  color: #fff;
-  text-align: center;
 }
 
 /* Container principal */
@@ -86,7 +78,7 @@ form {
   width: 100%; /* Garante que o form use todo o espaço disponível no painel */
 }
 
-label {
+.label-login {
   width: 90%;
   font-size: 14px;
   margin-bottom: 5px;
@@ -176,9 +168,9 @@ button:hover {
     width: calc(100% - 30%); /* Inputs ocupam toda a largura */
   }
   
-  label {
+  .label-login {
     width: 100%;
-    font-size: 12px;
+    font-size: 40px;
     margin-bottom: 5px;
     color: #3498DB;
     text-align: center;
@@ -211,7 +203,7 @@ button:hover {
   button {
     width: calc(100% - 40%); /* Botão ocupa toda a largura */
   }
-  label {
+  .label-login {
     width: 100%;
     font-size: 12px;
     margin-bottom: 5px;
@@ -224,4 +216,7 @@ button:hover {
     width: 120px;
     margin: 0px;
   }
+
+  
+  
 }
